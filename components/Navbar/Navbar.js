@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import { MenuAlt3Icon, XCircleIcon } from "@heroicons/react/outline";
+import { HiMenuAlt3, HiOutlineXCircle } from "react-icons/hi";
 import { NavLink } from "./NavLink";
 
 export const Navbar = () => {
@@ -27,9 +27,9 @@ export const Navbar = () => {
           className="hidden md:flex md:h-20 md:w-20 md:justify-end md:items-center md:m-0 md:mr-2"
         >
           {click ? (
-            <XCircleIcon className="h-7 w-7 text-sky-500" />
+            <HiOutlineXCircle className="h-7 w-7 text-sky-500" />
           ) : (
-            <MenuAlt3Icon className="h-7 w-7 text-sky-500" />
+            <HiMenuAlt3 className="h-7 w-7 text-sky-500" />
           )}
         </div>
         <ul

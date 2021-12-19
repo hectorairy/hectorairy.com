@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 
 export const NavLink = ({ to, text, active }) => {
-  console.log(active);
   return (
     <li className="h-20 cursor-pointer md:w-full">
       <Link href={to}>
