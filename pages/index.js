@@ -14,6 +14,7 @@ export default function Home() {
           Héctor Airy!
         </a>
       </h1>
+      {/* <div className="max-w-6xl mx-auto my-0 w-11/12"></div> */}
     </Layout>
   );
 }
