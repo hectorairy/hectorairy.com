@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { Navbar } from "./Navbar/Navbar";
 
 export const Layout = ({ children }) => {
   return (
@@ -19,7 +20,7 @@ export const Layout = ({ children }) => {
           data-react-helmet="true"
         />
       </Head>
-      nav
+      <Navbar />
       <main>{children}</main>
       footer
     </>
