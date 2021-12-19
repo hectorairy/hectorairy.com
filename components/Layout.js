@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "./Navbar/Navbar";
+import { Footer, Footes } from "./Footer/Footer";
 
 export const Layout = ({ children }) => {
   return (
@@ -22,7 +23,7 @@ export const Layout = ({ children }) => {
       </Head>
       <Navbar />
       <main>{children}</main>
-      footer
+      <Footer />
     </>
   );
 };
