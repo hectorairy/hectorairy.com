@@ -27,7 +27,7 @@ export const CardProject = ({
       </div>
       <div className="flex justify-evenly pb-5">
         {site && (
-          <a href="https://fingame.app/" target={"_blank"} rel="noreferrer">
+          <a href={site} target={"_blank"} rel="noreferrer">
             <GoGithubAction className="text-2xl text-green-400" />{" "}
           </a>
         )}
