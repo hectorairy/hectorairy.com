@@ -11,16 +11,16 @@ export const CardProject = ({
   github,
 }) => {
   return (
-    <div class="w-56 mb-5 bg-white rounded-xl shadow-xl">
+    <div className="w-56 mb-5 bg-white rounded-xl shadow-xl">
       <img
         src={`/images/${image}`}
-        class="max-h-52 h-52 object-cover rounded-t-xl"
+        className="max-h-52 h-52 object-cover rounded-t-xl"
         alt=""
       />
 
-      <div class="px-2 py-1 text-center">
-        <div class="text-lg font-semibold pb-2">{title}</div>
-        <p class="pb-2 text-sm md:text-sm text-gray-400">{description}</p>
+      <div className="px-2 py-1 text-center">
+        <div className="text-lg font-semibold pb-2">{title}</div>
+        <p className="pb-2 text-sm md:text-sm text-gray-400">{description}</p>
         <TextGradient size={"text-xs"} pb="pb-2">
           {technologies}
         </TextGradient>

@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <nav className="bg-white flex justify-center font-medium sticky top-0 z-[999] shadow-lg transition-all duration-200 ease-in">
-      <div className="flex justify-between h-20 z-[1] w-full max-w-6xl">
+      <div className="flex justify-between h-20 z-[1] w-full max-w-3xl mx-auto my-0">
         <Link href="/">
           <div className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-sky-500 justify-self-start cursor-pointer no-underline text-2xl flex items-center m-0 mx-2 mr-8">
             <div className="mr-1">

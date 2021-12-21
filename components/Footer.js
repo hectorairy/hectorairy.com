@@ -5,7 +5,7 @@ export const Footer = () => {
 
   return (
     <footer>
-      <div className="flex flex-col items-center mt-16">
+      <div className="flex flex-col items-center mt-16 mb-4 max-w-3xl w-11/12 mx-auto my-0">
         <p className="text-md text-center tracking-wide text-gray-400 mb-2">
           Héctor Airy @hectorairy • Todos los derechos reservados &copy; {year}.
         </p>
