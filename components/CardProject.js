@@ -20,7 +20,7 @@ export const CardProject = ({
 
       <div className="px-2 py-1 text-center">
         <div className="text-lg font-semibold pb-2">{title}</div>
-        <p className="pb-2 text-sm md:text-sm text-gray-400">{description}</p>
+        <p className="pb-2 text-sm md:text-sm text-gray-600">{description}</p>
         <TextGradient size={"text-xs"} pb="pb-2">
           {technologies}
         </TextGradient>
