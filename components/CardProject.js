@@ -1,6 +1,7 @@
 import React from "react";
 import { TextGradient } from "./TextGradient";
 import { GoGithubAction, GoMarkGithub } from "react-icons/go";
+import Image from "next/image";
 
 export const CardProject = ({
   image,
@@ -12,10 +13,13 @@ export const CardProject = ({
 }) => {
   return (
     <div className="w-56 mb-5 bg-white rounded-xl shadow-xl">
-      <img
+      <Image
+        className="object-cover rounded-t-xl"
         src={`/images/${image}`}
-        className="max-h-52 h-52 object-cover rounded-t-xl"
-        alt=""
+        width="100%"
+        height="100%"
+        layout="responsive"
+        alt={title}
       />
 
       <div className="px-2 py-1 text-center">
