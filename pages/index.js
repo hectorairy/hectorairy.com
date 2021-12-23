@@ -85,21 +85,25 @@ export default function Home() {
               link={"https://twitter.com/hectorairy"}
               icon={<IoLogoTwitter className="mr-2 text-sky-500" />}
               social={"Twitter"}
+              border={"border-b-[1px]"}
             />
             <SocialLink
               link={"https://github.com/hectorairy"}
               icon={<IoLogoGithub className="mr-2 text-black" />}
               social={"GitHub"}
+              border={"border-b-[1px]"}
             />
             <SocialLink
               link={"https://www.linkedin.com/in/hectorairy/"}
               icon={<IoLogoLinkedin className="mr-2 text-blue-500" />}
               social={"LinkedIn"}
+              border={"border-b-[1px]"}
             />
             <SocialLink
               link={"https://sites.hectorairy.com/"}
               icon={<IoIosLink className="mr-2 text-sky-500" />}
               social={"Mis sitios"}
+              border={"border-b-[1px]"}
             />
           </div>
         </div>
