@@ -87,14 +87,14 @@ export default function About() {
                 Experiencia
               </Subtitle>
               <Timeline>
-                <TimelineCard
+                {/* <TimelineCard
                   icon={<FcBusinessman className="mr-1" />}
                   title={"FullStack JS Developer"}
                   name={"DrakoD"}
                   time={"nov 2020 - actualidad"}
                   description={`Junto a un par de amigos inicie una agencia de desarrollo. Dentro de esta me encargo de la gestión de los proyectos y parte del desarrollo
                   de los sistemas.`}
-                />
+                /> */}
                 <TimelineCard
                   icon={<FcBusinessman className="mr-1" />}
                   title={"Head of Engineering"}
